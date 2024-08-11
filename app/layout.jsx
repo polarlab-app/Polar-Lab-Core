@@ -1,3 +1,4 @@
+import '@/src/master.global.css';
 export const metadata = {
     title: 'Polar Core',
     description: 'The core management dashboard for Polar Lab Projects',

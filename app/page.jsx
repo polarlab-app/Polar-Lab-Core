@@ -3,11 +3,13 @@ import ParticlesNameWasTaken from '@/components/particles.jsx';
 
 export default function Page() {
     return (
-        <div className={styles.wrapper}>
-            <h1 className={styles.header}>Hello World</h1>
-            <h3 className={styles.subheader}>This is a paragraph</h3>
-            <button className={styles.button}>Click me</button>
-            <ParticlesNameWasTaken />
+        <div className='main'>
+            <div className={styles.container}>
+                <h1 className={styles.header}>CORE</h1>
+                <h3 className={styles.subheader}>The ultimate control panel experience</h3>
+                <button className={styles.button}>Access Dashboard</button>
+            </div>
+            <ParticlesNameWasTaken className={styles.particles} />
         </div>
     );
 }
